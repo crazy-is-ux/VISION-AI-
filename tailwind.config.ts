@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{colors:{navy:'#050A24',violet:'#7B2FFF',indigo:'#4F46E5',neon:'#3B82F6',cyan:'#22D3EE'},borderRadius:{glass:'24px'},boxShadow:{glow:'0 0 30px rgba(123,47,255,.5)'},fontFamily:{display:['Orbitron','Rajdhani','sans-serif'],body:['Inter','sans-serif']}}}};
