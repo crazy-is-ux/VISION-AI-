@@ -20,6 +20,10 @@ jobs:
           node-version: '22'
       - run: npm install
       - run: npm run build
+      - name: Publish standalone VISION AI dashboard as homepage
+        run: |
+          cp dist/index.html dist/react.html
+          cp public/dashboard.html dist/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
